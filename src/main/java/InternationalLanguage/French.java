@@ -1,10 +1,5 @@
 package InternationalLanguage;
 
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
-
-@Component
-@Qualifier("French")
 public class French implements Language{
     @Override
     public String Hello() {

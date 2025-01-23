@@ -1,8 +1,5 @@
 package InternationalLanguage;
 
-import org.springframework.stereotype.Component;
-
-@Component
 public class Japanese implements Language {
     @Override
     public String Hello() {
