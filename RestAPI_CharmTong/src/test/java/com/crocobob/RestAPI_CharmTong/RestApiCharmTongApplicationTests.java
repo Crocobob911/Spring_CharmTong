@@ -1,4 +1,4 @@
-package com.crocobob.RestAPI_CharmTong.RestAPI_CharmTong;
+package com.crocobob.RestAPI_CharmTong;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
