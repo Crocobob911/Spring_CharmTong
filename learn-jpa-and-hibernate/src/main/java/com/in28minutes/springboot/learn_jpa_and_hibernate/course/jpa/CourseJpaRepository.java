@@ -1,4 +1,4 @@
-package com.in28minutes.springboot.learn_jpa_and_hibernate.jpa;
+package com.in28minutes.springboot.learn_jpa_and_hibernate.course.jpa;
 
 import com.in28minutes.springboot.learn_jpa_and_hibernate.course.Course;
 import jakarta.persistence.EntityManager;
