@@ -6,11 +6,13 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 public class HelloController {
     @RequestMapping("/")
+    @ResponseBody
     public String home() {
         return "Welcome. This is home.";
     }
 
     @RequestMapping("/hello")
+    @ResponseBody
     public String hello(@RequestParam String name) {
         return "Hello " + name;
     }
