@@ -1,9 +1,6 @@
 package com.crocobob.RestAPI_CharmTong.RestAPI_CharmTong.Contoller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class HelloController {
@@ -15,5 +12,10 @@ public class HelloController {
     @RequestMapping("/hello")
     public String hello(@RequestParam String name) {
         return "Hello " + name;
+    }
+
+    @RequestMapping("say-hello-jsp")
+    public String sayHelloJsp(){
+        return "sayHello";
     }
 }
