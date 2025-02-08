@@ -1,4 +1,4 @@
-package com.example.CharmTong;
+package com.example.CharmTong.hello;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;

@@ -1,12 +1,12 @@
-package com.example.CharmTong;
+package com.example.CharmTong.hello;
 
 import org.springframework.stereotype.Component;
 
 @Component
-public class SayBonjour implements SaySomething {
+public class SayMerhaba implements SaySomething {
 
     @Override
     public String getTerm() {
-        return "Bonjour";
+        return "Merhaba";
     }
 }

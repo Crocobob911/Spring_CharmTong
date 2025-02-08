@@ -1,4 +1,4 @@
-package com.example.CharmTong;
+package com.example.CharmTong.hello;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
